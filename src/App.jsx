@@ -78,7 +78,7 @@ function App() {
     document.documentElement.classList.toggle("dark", nextTheme === "dark");
   }
   return (
-    <div className="flex flex-col items-center max-w-2xl h-screen p-5 mx-auto">
+    <div className="flex flex-col items-center justify-between max-w-2xl h-screen p-5 mx-auto">
       <Header theme={theme} handleTheme={handleTheme} />
       <Main
         todos={todos}

@@ -5,7 +5,7 @@ export default function Footer({
   inputRef,
 }) {
   return (
-    <div className="flex gap-5 w-full px-10">
+    <div className="flex gap-5 w-full px-5 pb-5">
       <input
         className="border rounded-lg py-2 px-3 flex-1 text-zinc-950 dark:text-zinc-100 placeholder:text-zinc-950 dark:placeholder:text-zinc-100  text-sm sm:text-md"
         value={inputText}
