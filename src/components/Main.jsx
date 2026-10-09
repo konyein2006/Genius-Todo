@@ -7,7 +7,7 @@ export default function Main({
   handleCorrection,
 }) {
   return (
-    <div className="flex flex-col flex-1 gap-5 my-10 w-full px-10 overflow-y-auto scrollbar-none">
+    <div className="flex flex-col flex-1 gap-5 my-10 w-full px-5 overflow-y-auto scrollbar-none">
       {todos.length < 1 && (
         <div className="font-bold text-xl sm:text-2xl md:text-3xl mx-auto text-zinc-800 dark:text-zinc-300">
           Add Todo Lists
