@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+.box-shadow:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
