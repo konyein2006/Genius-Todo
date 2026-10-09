@@ -23,9 +23,7 @@ function App() {
   });
   const [todos, setTodos] = useState(() => {
     const savedTodos = localStorage.getItem("genius-todo");
-    if (savedTodos) {
-      return JSON.parse(savedTodos);
-    }
+    return savedTodos ? JSON.parse(savedTodos) : [];
   });
   const [inputText, setInputText] = useState("");
   const inputRef = useRef(null);
