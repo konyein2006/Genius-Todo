@@ -7,11 +7,11 @@ export default function Footer({
   return (
     <div className="flex gap-5 w-full px-5 pb-5">
       <input
-        className="border rounded-lg py-2 px-3 flex-1 text-zinc-950 dark:text-zinc-100 placeholder:text-zinc-950 dark:placeholder:text-zinc-100  text-sm sm:text-md"
+        className="border rounded-lg p-3 flex-1 text-zinc-950 dark:text-zinc-100 placeholder:text-zinc-950 dark:placeholder:text-zinc-100  text-md sm:text-lg"
         value={inputText}
         ref={inputRef}
         type="text"
-        placeholder="Add todo"
+        placeholder="Add todo..."
         onChange={handleInput}
         onKeyDown={(e) => {
           if (e.key === "Enter") {
