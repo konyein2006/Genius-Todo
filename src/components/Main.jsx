@@ -31,7 +31,7 @@ export default function Main({
             />
             <div className="flex flex-col gap-1 flex-1">
               <p
-                className={`font-bold capitalize text-md sm:text-lg md:text-xl text-zinc-950 dark:text-zinc-100 ${todo.complete && "line-through decoration-2"}`}
+                className={`font-bold text-md sm:text-lg md:text-xl text-zinc-950 dark:text-zinc-100 ${todo.complete && "line-through decoration-2"}`}
               >
                 {todo.todo}
               </p>
